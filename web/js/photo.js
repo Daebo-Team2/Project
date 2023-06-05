@@ -16,7 +16,7 @@ document.querySelector("button.nextButton").addEventListener("click", () => {
 			})
 			
 document.querySelector("button.mainbtn").addEventListener("click", () => {
-	window.location.href = "main.html"
+	window.location.href = "../index.html"
 		})
 		
 document.querySelector("button.infobtn").addEventListener("click", () => {
