@@ -19,12 +19,11 @@
 			<span class="subtitle">최고의 물고기 사냥꾼</span>
 		</div>
 		<div class="leftside">
-			<ul>
-				다른 동물들
-				<li><a href="판다" target="_blank">판다</a></li>
-				<li><a href="호랑이" target="_blank">호랑이</a></li>
-				<li><a href="코끼리" target="_blank">코끼리</a></li>
-			</ul>
+		<br /><br />
+				<span><b> 다른 동물들 </b></span><br />
+				<button type="button" class="moveanimal">판다</button><br />
+				<button type="button" class="moveanimal">호랑이</button><br />
+				<button type="button" class="moveanimal">코끼리</button><br />
 		</div>
 		<div class="content">
 		<div>
@@ -161,6 +160,15 @@
 		document.querySelector("button.photo").addEventListener("click", () => {
 			window.location.href = "./otter_photo.html"
 		})
+
+		const elements = document.querySelectorAll("button.moveanimal");
+		const htmls = ["./pandahtml.html", "./tiger.html", "./elephant1.html" ]
+		for (let i=0; i<3; i++){
+			const element = elements[i];
+			element.addEventListener("click", function() {
+			window.location.href = htmls[i];
+		})
+		}
 	</script>
 
 </body>

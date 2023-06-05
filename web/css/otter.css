@@ -24,6 +24,7 @@
 	float: left;
 	font-family: 'IBM Plex Sans KR', sans-serif;
 	font-size: 22px;
+	text-align: center;
 }
 
 .content {
@@ -64,6 +65,17 @@
 .contenttab {
 	
 }
+
+.moveanimal {
+	width: 180px;
+	height: 40px;
+	background-color: #FF607F;
+	color: white;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-size: 22px;
+	border-color: pink;
+}
+
 
 .move {
 	width: 800px;
