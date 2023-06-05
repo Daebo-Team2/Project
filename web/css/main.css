@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+	/*height: 100vh;*/
+	background-image: url("../image/bg1.png");
+	background-size: cover; /* 배경 크기 맞추기(?) */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.container {
+	padding: 50px 0;
+	
+}
+
+
+.container .zoo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 900px;
+	margin: 0 auto; /* 사이간격 */
+	padding: 40px 20px; /* left, top */
+	align-items: center;
+	flex-direction: column;
+}
+
+.container .zoo #pic{
+	width: 200px;
+	height: 200px;
+ 	margin: 4px; /* 사이간격 */
+	border: 3px solid #fff;
+	border-radius: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transition:
+		transform .1s, /* transition .1s 효과를 부드럽게 실행*/
+		background-color .6s; /* 0.6초 동안 서서히 바뀜 */
+}
+
+.container .zoo #pic:hover{
+	background-color: skyblue;
+	transform: scale(1.5);
+	z-index: 1; /* 우선순위가 높아진다 index 1 */
+}
+
+
+.container .zoo .hero .image{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90px;
+}
+
+
+.container .zoo .hero:nth-child(1) .image{ background-image: url("../image/panda1.png"); }
+.container .zoo .hero:nth-child(2) .image{ background-image: url("../image/tiger1.png"); }
+.container .zoo .hero:nth-child(3) .image{ background-image: url("../image/elephant1.png"); }
+.container .zoo .hero:nth-child(4) .image{ background-image: url("../image/otter1.png"); }
