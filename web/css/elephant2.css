@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+}
+
+div.wrapper {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+div.image {
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+img.left {
+  left: -600px;
+}
+
+img.center {
+  left: 0px;
+}
+
+img.right {
+  left: 600px;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  transition: all 0.5s;
+}
+
+button {
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
