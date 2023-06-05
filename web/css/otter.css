@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+
+/* -------------설명페이지-------------------------------- */
+/* 전체 레이아웃 */
+.layout {
+	background-color: pink;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: pink;
+	height: 100px;
+	text-align: center;
+	
+}
+
+.leftside {
+	/* background-color: pink; */
+	width: 200px;
+	margin: 0 auto;
+	/* height: 600px; */
+	float: left;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-size: 22px;
+}
+
+.content {
+	background-color:#FAFAD2;
+	width: 800px;
+	margin: 0 auto;
+	float: right;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.footer {
+	background-color: pink;
+	height: 100px;
+	clear: both;
+}
+
+/* 내용 */
+.maintitle {
+	font-family: 'Gugi', cursive;
+	font-size: 50px;
+}
+
+.subtitle {
+	text-align: center;
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 28px;
+}
+
+.contenttop {
+	width: 600px;
+	background-color: white; 
+	
+}
+
+.contenttab {
+	
+}
+
+.move {
+	width: 800px;
+	text-align: right;
+}
+
+#infotab {
+	border: 2px solid black;
+	width: 500px;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-size: 16px;
+}
+
+#infotab td, th {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#td1 {
+	width: 100px;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+.contentinfo {
+	text-align: center;
+	
+}
+
+.info {
+	width: 700px;
+	text-align: left;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-size: 20px;
+	padding-left: 20px;
+	
+}
+
+/* 사진 */
+
+.otter1 {
+	width: 300px;
+	 
+	display: block;
+	margin: auto;
+}
+.otter2 {
+	width: 500px;
+	height: 1037px;
+	display: block;
+	margin: auto;
+}
+.otter3 {
+	width: 492px;
+	height: 434px;
+	display: block;
+	margin: auto;
+}
+.otter4 {
+	width: 600px;
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+.otter5 {
+	width: 600px;
+	height: 299px;
+	display: block;
+	margin: auto;
+}
+.otter6 {
+	width: 600px;
+	height: 642px;
+	display: block;
+	margin: auto;
+}
+.otter7 {
+	width: 600px;
+	height: 389px;
+	display: block;
+	margin: auto;
+}
+
+
+/* -------------사진페이지-------------------------------- */
+
+.flex-container {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #FAFAD2;
+  
+  display: flex;
+  justify-content: space-around;
+}
+
+#otterimg {
+	width: 600px;
+	height: 840px;
+  margin: 10px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background: pink;
+	}
+	
+.prevButton {
+	margin: 10px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background: #FF6A89;
+}
+
+.nextButton {
+	margin: 10px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background: #FF6A89;
+}
+
+/* -------------메인페이지-------------------------------- */

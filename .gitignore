@@ -27,3 +27,8 @@ replay_pid*
 
 .idea
 .gitignore
+/build/
+.classpath
+.project
+.settings
+web/META-INF/MANIFEST.MF
