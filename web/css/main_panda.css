@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.wrapper{
+  margin:  auto;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+}
+
+.images{
+  position: relative;
+  display: flex;
+  width: 1000px;
+  height: 800px;
+}
+
+button, button:active, button:focus{
+  width: 180px; 
+  height: 100px;
+  background-color: pink;
+  outline: none;
+  border: none;
+}
+
+.previous{
+  float: left;
+}
+.next{
+  float: right;
+}
