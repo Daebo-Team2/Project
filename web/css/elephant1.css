@@ -1,0 +1,29 @@
+body {
+  background-color: grey;
+}
+.wrapper {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+}
+
+div.header {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+span.header-en {
+  font-size: 20px;
+}
+
+span.content-header {
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
