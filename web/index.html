@@ -7,7 +7,7 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gugi&family=IBM+Plex+Sans+KR:wght@300;400&display=swap');
 </style>
-<link href="../css/main.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
 <Script type="text/javascript"></script>
 </head>
 <body>
@@ -20,22 +20,30 @@
 
 	<div class="container">
 		<div class="zoo">
-			<div class="hero" id="pic">
+			<div class="hero">
 				<div class="image"></div>
 			</div>
-			<div class="hero" id="pic">
+			<div class="hero">
 				<div class="image"></div>
 			</div>
-			<div class="hero" id="pic">
+			<div class="hero">
 				<div class="image"></div>
 			</div>
-			<div class="hero" id="pic">
+			<div class="hero">
 				<div class="image"></div>
 			</div>
 		</div>
 	</div>
-
-
+	<script>
+		const elements = document.querySelectorAll(".hero");
+		const htmls = ["./html/pandahtml.html", "./html/tiger.html", "./html/elephant1.html", "./html/Eurasian_otter.html"];
+		for (let i=0; i<4; i++) {
+			const element = elements[i];
+			element.addEventListener("click", () => {
+				window.location.href = htmls[i];
+			})
+		}
+	</script>
 
 </body>
 </html>

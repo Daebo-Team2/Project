@@ -31,7 +31,7 @@ body {
 	padding: 40px 20px; /* left, top */
 }
 
-.container .zoo #pic{
+.container .zoo .hero{
 	width: 200px;
 	height: 200px;
  	margin: 4px; /* 사이간격 */
@@ -44,7 +44,7 @@ body {
 		background-color .6s; /* 0.6초 동안 서서히 바뀜 */
 }
 
-.container .zoo #pic:hover{
+.container .zoo .hero:hover{
 	background-color: skyblue;
 	transform: scale(1.5);
 	z-index: 1; /* 우선순위가 높아진다 index 1 */
